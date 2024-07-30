@@ -1,0 +1,43 @@
+.review-container {
+    position: relative;
+    overflow: hidden;
+    animation: shimmer 1s infinite;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -100px 0;
+    }
+    100% {
+        background-position: 100px 0;
+    }
+}
+
+.shimmer-animation {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 25%, rgba(239, 239, 239, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: hsl(284, 40%, 71%);
+    color: #fff;
+}
+/* Animation for the logo */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}

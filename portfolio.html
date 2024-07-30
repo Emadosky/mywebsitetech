@@ -1,0 +1,624 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link href="https://cloudsoft.ly/css/app.css" rel="stylesheet">
+    <link href="https://cloudsoft.ly/css/home.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>تك زون - معرض الأعمال</title>
+    <meta name="description" content="
+يحتوي معرض الأعمال الخاص بنا على بعض المشاريع التي قمنا بتطويرها 
+">
+
+</head>
+
+<body>
+    <div id="web" dir="rtl">
+
+        <!-- Header -->
+
+
+        <div class="w-full shadow-sm">
+            <div class="w-auto px-8  lg:container lg:px-4 mx-auto h-20 flex justify-between">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <a href="index.html">
+                    <img src="logo is.png" class="h-14" alt="Cloud Soft" />
+                </div>
+                <!-- End Logo -->
+
+                <!-- Menu -->
+                <ul class="items-center cairo font-normal text-gray-500  justify-left space-x-12 space-x-reverse text-md hidden lg:inline-flex" dir="rtl">
+                                        <li>
+                                                <a href="index.html" class=" hover-secondary transform transition duration-500 ease-in-out">الرئيسية</a>
+                                            </li>
+                                        <li>
+                                                <a href="about.html" class=" hover-secondary transform transition duration-500 ease-in-out">من نحن</a>
+                                            </li>
+                                        <li>
+                                                <a href="services.html" class=" hover-secondary transform transition duration-500 ease-in-out">خدماتنا</a>
+                                            </li>
+                                        <li>
+                                                <a href="products.html" class=" hover-secondary transform transition duration-500 ease-in-out">منتجاتنا</a>
+                                            </li>
+                                        <li>
+                                                <a href="portfolio.html" class="secondary hover-primary transform transition duration-500 ease-in-out">أعمالنا</a>
+                                            </li>
+                                        <li>
+                                                <a href="team.html" class=" hover-secondary transform transition duration-500 ease-in-out">فريق العمل</a>
+                                            </li>
+                                        <li>
+                                                <a href="contact.html" class=" hover-secondary transform transition duration-500 ease-in-out">إتصل بنا</a>
+                                            </li>
+                    
+                    <li>
+                        <a href="start.html" class="bg-secondary hover-bg-primary text-white px-4 py-2 rounded-full  transform transition duration-500 ease-in-out">إطرح مشروعك</a>
+                    </li>
+                </ul>
+                <!-- End Menu -->
+
+                <!-- Btn Menu -->
+                <div onclick="myFunction()" class="inline-flex lg:hidden text-3xl flex flex-warp items-center hover-secondary cursor-pointer ">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <!-- End Btn Menu -->
+
+                <!-- Side Menu Test -->
+                <div id="myDIV2" onclick="myFunction()" class="fixed left-0 top-0 bg-gray-700 bg-opacity-50 w-full h-full z-10 lg:hidden block" style="display: none;">
+                </div>
+
+                <div id="myDIV" data-aos="fade-right" data-aos-duration="400" class="h-full w-64 bg-white z-20 fixed left-0 top-0 overflow-y-auto lg:hidden block" style="display: none;">
+
+                                        <li class="w-full h-12 flex items-center justify-center border-b border-gray-100">
+                                                <a href="index.html" class="primary hover-secondary transform transition duration-500 ease-in-out">الرئيسية</a>
+                                            </li>
+                                        <li class="w-full h-12 flex items-center justify-center border-b border-gray-100">
+                                                <a href="about.html" class="primary hover-secondary transform transition duration-500 ease-in-out">من نحن</a>
+                                            </li>
+                                        <li class="w-full h-12 flex items-center justify-center border-b border-gray-100">
+                                                <a href="services.html" class="primary hover-secondary transform transition duration-500 ease-in-out">خدماتنا</a>
+                                            </li>
+                                        <li class="w-full h-12 flex items-center justify-center border-b border-gray-100">
+                                                <a href="products.html" class="primary hover-secondary transform transition duration-500 ease-in-out">منتجاتنا</a>
+                                            </li>
+                                        <li class="w-full h-12 flex items-center justify-center border-b border-gray-100">
+                                                <a href="portfolio.html" class="secondary hover-primary transform transition duration-500 ease-in-out">أعمالنا</a>
+                                            </li>
+                                        <li class="w-full h-12 flex items-center justify-center border-b border-gray-100">
+                                                <a href="team.html" class="primary hover-secondary transform transition duration-500 ease-in-out">فريق العمل</a>
+                                            </li>
+                                        <li class="w-full h-12 flex items-center justify-center border-b border-gray-100">
+                                                <a href="contact.html" class="primary hover-secondary transform transition duration-500 ease-in-out">إتصل بنا</a>
+                                            </li>
+                                        <a href="start.html" class="w-40 mx-auto my-6 h-12 flex items-center justify-center bg-secondary hover-bg-primary text-white px-4 py-2 rounded-full  transform transition duration-500 ease-in-out">إطرح مشروعك</a>
+
+                </div>
+                <!-- End Side Menu Test -->
+
+            </div>
+        </div>
+        <!-- End Header -->
+
+
+
+        
+
+
+<!-- Section -->
+<div class="flex py-24 " style="background-color: #1c2025;">
+    <div class=" container mx-auto">
+        <div class="w-full text-center text-white text-6xl secondary">معرض الأعمال</div>
+        <div class="xl:flex items-center mt-12">
+            <div class="xl:w-1/2 w-full flex items-center justify-center abg-blue-400" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-duration="800">
+                <img src="portfolio-page.svg" class="xl:h-96 lg:h-80 h-48" alt="">
+            </div>
+            <div class="xl:w-1/2 w-full xl:py-0 py-12 flex items-center justify-center text-center text-white px-8 text-lg font-extralight" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="800">
+                أشتغل فريقنا على العديد من المشاريع الرقمية في مختلف المجالات من منظومات ومواقع ويب وتطبيقات للهواتف الذكية
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Section -->
+
+
+
+    <!-- Contact Form -->
+    <div class="bg-white w-full">
+        <div class="container mx-auto px-4 py-4 pb-36">
+            <div
+                class="text-center mt-8 mb-2 text-6xl tanseek secondary"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+            >
+                <span class="primary">أعمال نعتز</span>
+                <span>بها</span>
+            </div>
+            <div
+                class="text-gray-400 text-center mb-12"
+                data-aos="fade-up"
+                data-aos-duration="800"
+            >
+                هذه قائمة ببعض الأعمال التي قمنا بتفيذها
+            </div>
+            <!DOCTYPE html>
+            <html lang="ar">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Service Selection</title>
+                <style>
+                    .service-btn {
+                        background-color: rgb(243, 245, 247);
+                        cursor: pointer;
+                    }
+                    .service-btn.active {
+                        background-color: rgb(255, 37, 85);
+                        color: white;
+                        box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+                    }
+                    .service-info {
+                        display: none;
+                        opacity: 0;
+                        transition: opacity 0.5s ease-in-out;
+                    }
+                    .service-info.active {
+                        display: block;
+                        opacity: 1;
+                    }
+                </style>
+            </head>
+            <body>
+                <div>
+                    <div class="mx-auto md:flex items-center justify-center">
+                        <div class="mx-2 flex items-center justify-center">
+                            <div class="h-12 rounded-full w-full md:w-32 my-2 md:my-0 flex items-center justify-center service-btn active" data-service="all">
+                                الكل
+                            </div>
+                        </div>
+                        <div class="mx-2 flex items-center justify-center">
+                            <div class="h-12 rounded-full w-full md:w-32 my-2 md:my-0 flex items-center justify-center service-btn" data-service="web">
+                                مواقع الويب
+                            </div>
+                        </div>
+                        <div class="mx-2 flex items-center justify-center">
+                            <div class="h-12 rounded-full w-full md:w-32 my-2 md:my-0 flex items-center justify-center service-btn" data-service="android">
+                                Android
+                            </div>
+                        </div>
+                        <div class="mx-2 flex items-center justify-center">
+                            <div class="h-12 rounded-full w-full md:w-32 my-2 md:my-0 flex items-center justify-center service-btn" data-service="ios">
+                                IOS
+                            </div>
+                        </div>
+                        <div class="mx-2 flex items-center justify-center">
+                            <div class="h-12 rounded-full w-full md:w-32 my-2 md:my-0 flex items-center justify-center service-btn" data-service="design">
+                                تصميم
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="w-full grid xl:grid-cols-3 md:grid-cols-2">
+                        <div class="service-info active" data-service="all">
+                            <!-- Content for all services -->
+                            <div class="shadow border mx-4 my-12" style="border-color: rgb(53, 58, 88);">
+                                <div class="w-full bg-cover bg-center" style="background-image: url('bmi calculator.png');">
+                                    <div class="w-full h-72 px-6 flex justify-end items-end" style="background-color: rgba(36, 36, 37, 0.25);">
+                                        <div class="shadow-lg w-full bg-white -mb-12 py-2 px-4 rounded-lg">
+                                            <div class="h-12 flex items-center text-2xl truncate text-red-500 font-medium">
+                                               موقع طفلنا الصحي
+                                            </div>
+                                            <div class="overflow-clip overflow-hidden h-16 text-sm text-justify" style="color: rgb(154, 154, 154);">
+                                                موقع خاص لقياس مؤشرات حالات الخطر في الطفل 
+                                            </div>
+                                            <div class="text-red-500 h-9 flex items-center">
+                                                <i class="far fa-calendar-alt ml-2"></i>
+                                                2024-02-15
+                                            </div>
+                                            <div class="bg-green-300a h-10 flex items-center">
+                                                <a href="portfolio.html" target="_blank" class="bg-gray-600 hover:bg-red-600 rounded duration-500 ml-2 px-2 shadow-lg text-white h-8 text-sm flex items-center">
+                                                    <i class="fas fa-link ml-1"></i>
+                                                    الموقع
+                                                </a>
+                                                <a href="#" target="_blank" class="bg-gray-600 hover:bg-red-600 rounded duration-500 ml-2 px-2 shadow-lg text-white h-8 text-sm flex items-center">
+                                                    <i class="fas fa-link ml-1"></i>
+                                                    اندرويد
+                                                </a>
+                                                <a href="null" target="_blank" class="bg-gray-600 hover:bg-red-600 rounded duration-500 ml-2 px-2 shadow-lg text-white h-8 text-sm flex items-center">
+                                                    <i class="fas fa-link ml-1"></i>
+                                                    أيفون
+                                                </a>
+                                                <a href="#" target="_blank" class="bg-gray-600 hover:bg-red-600 rounded duration-500 ml-2 px-2 shadow-lg text-white h-8 text-sm flex items-center">
+                                                    <i class="fas fa-link ml-1"></i>
+                                                    التصميم
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shadow border mx-4 my-12" style="border-color: rgb(53, 58, 88);">
+                                <div class="w-full bg-cover bg-center" style="background-image: url('application.png');">
+                                    <div class="w-full h-72 px-6 flex justify-end items-end" style="background-color: rgba(36, 36, 37, 0.25);">
+                                        <div class="shadow-lg w-full bg-white -mb-12 py-2 px-4 rounded-lg">
+                                            <div class="h-12 flex items-center text-2xl truncate text-red-500 font-medium">
+                                                تطبيق طفلنا الصحي
+                                            </div>
+                                            <div class="overflow-clip overflow-hidden h-16 text-sm text-justify" style="color: rgb(154, 154, 154);">
+                                                تطبيق معتمد لقياس صحة الاطفال و المؤشرات الصحية 
+                                            </div>
+                                            <div class="text-red-500 h-9 flex items-center">
+                                                <i class="far fa-calendar-alt ml-2"></i>
+                                                2024-04-20
+                                            </div>
+                                            <div class="bg-green-300a h-10 flex items-center">
+                                                <a href="لا يوجد" target="_blank" class="bg-gray-600 hover:bg-red-600 rounded duration-500 ml-2 px-2 shadow-lg text-white h-8 text-sm flex items-center">
+                                                    <i class="fas fa-link ml-1"></i>
+                                                    الموقع
+                                                </a>
+                                                <a href="portfolio.html" target="_blank" class="bg-gray-600 hover:bg-red-600 rounded duration-500 ml-2 px-2 shadow-lg text-white h-8 text-sm flex items-center">
+                                                    <i class="fas fa-link ml-1"></i>
+                                                    اندرويد
+                                                </a>
+                                                <a href="portfolio.html" target="_blank" class="bg-gray-600 hover:bg-red-600 rounded duration-500 ml-2 px-2 shadow-lg text-white h-8 text-sm flex items-center">
+                                                    <i class="fas fa-link ml-1"></i>
+                                                    أيفون
+                                                </a>
+                                                <a href="لا يوجد" target="_blank" class="bg-gray-600 hover:bg-red-600 rounded duration-500 ml-2 px-2 shadow-lg text-white h-8 text-sm flex items-center">
+                                                    <i class="fas fa-link ml-1"></i>
+                                                    التصميم
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="service-info" data-service="web">
+                            <!-- Content for web services -->
+                            <div class="shadow border mx-4 my-12" style="border-color: rgb(53, 58, 88);">
+                                <div class="w-full bg-cover bg-center" style="background-image: url('https://i.ibb.co/RhwjvgK/Screenshot-2023-12-23-at-10-58-52-PM.png');">
+                                    <div class="w-full h-72 px-6 flex justify-end items-end" style="background-color: rgba(36, 36, 37, 0.25);">
+                                        <div class="shadow-lg w-full bg-white -mb-12 py-2 px-4 rounded-lg">
+                                            <div class="h-12 flex items-center text-2xl truncate text-red-500 font-medium">
+                                                موقع شركة أورنج 
+                                            </div>
+                                            <div class="overflow-clip overflow-hidden h-16 text-sm text-justify" style="color: rgb(154, 154, 154);">
+                                                موقع خاص بشركة أورنج  يعرض خدمات الشركة ويصل بين زوار الموقع والشركة
+                                            </div>
+                                            <div class="text-red-500 h-9 flex items-center">
+                                                <i class="far fa-calendar-alt ml-2"></i>
+                                                2023-02-15
+                                            </div>
+                                            <div class="bg-green-300a h-10 flex items-center">
+                                                <a href="portfolio.html" target="_blank" class="bg-gray-600 hover:bg-red-600 rounded duration-500 ml-2 px-2 shadow-lg text-white h-8 text-sm flex items-center">
+                                                    <i class="fas fa-link ml-1"></i>
+                                                    الموقع
+                                                </a>
+                                                <a href="#" target="_blank" class="bg-gray-600 hover:bg-red-600 rounded duration-500 ml-2 px-2 shadow-lg text-white h-8 text-sm flex items-center">
+                                                    <i class="fas fa-link ml-1"></i>
+                                                    اندرويد
+                                                </a>
+                                                <a href="null" target="_blank" class="bg-gray-600 hover:bg-red-600 rounded duration-500 ml-2 px-2 shadow-lg text-white h-8 text-sm flex items-center">
+                                                    <i class="fas fa-link ml-1"></i>
+                                                    أيفون
+                                                </a>
+                                                <a href="#" target="_blank" class="bg-gray-600 hover:bg-red-600 rounded duration-500 ml-2 px-2 shadow-lg text-white h-8 text-sm flex items-center">
+                                                    <i class="fas fa-link ml-1"></i>
+                                                    التصميم
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="service-info" data-service="android">
+                            <!-- Content for Android services -->
+                            <div class="shadow border mx-4 my-12" style="border-color: rgb(53, 58, 88);">
+                                <div class="w-full bg-cover bg-center" style="background-image: url('https://a.top4top.io/p_3039n27v81.png');">
+                                    <div class="w-full h-72 px-6 flex justify-end items-end" style="background-color: rgba(36, 36, 37, 0.25);">
+                                        <div class="shadow-lg w-full bg-white -mb-12 py-2 px-4 rounded-lg">
+                                            <div class="h-12 flex items-center text-2xl truncate text-red-500 font-medium">
+                                                تطبيق  صبراتة
+                                            </div>
+                                            <div class="overflow-clip overflow-hidden h-16 text-sm text-justify" style="color: rgb(154, 154, 154);">
+                                                تطبيق خاص  صبراتة يفيد الطلبة   في الكليات و الجامعات في متابعة الدراسية
+                                            </div>
+                                            <div class="text-red-500 h-9 flex items-center">
+                                                <i class="far fa-calendar-alt ml-2"></i>
+                                                2024-04-20
+                                            </div>
+                                            <div class="bg-green-300a h-10 flex items-center">
+                                                <a href="لا يوجد" target="_blank" class="bg-gray-600 hover:bg-red-600 rounded duration-500 ml-2 px-2 shadow-lg text-white h-8 text-sm flex items-center">
+                                                    <i class="fas fa-link ml-1"></i>
+                                                    الموقع
+                                                </a>
+                                                <a href="portfolio.html" target="_blank" class="bg-gray-600 hover:bg-red-600 rounded duration-500 ml-2 px-2 shadow-lg text-white h-8 text-sm flex items-center">
+                                                    <i class="fas fa-link ml-1"></i>
+                                                    اندرويد
+                                                </a>
+                                                <a href="portfolio.html" target="_blank" class="bg-gray-600 hover:bg-red-600 rounded duration-500 ml-2 px-2 shadow-lg text-white h-8 text-sm flex items-center">
+                                                    <i class="fas fa-link ml-1"></i>
+                                                    أيفون
+                                                </a>
+                                                <a href="لا يوجد" target="_blank" class="bg-gray-600 hover:bg-red-600 rounded duration-500 ml-2 px-2 shadow-lg text-white h-8 text-sm flex items-center">
+                                                    <i class="fas fa-link ml-1"></i>
+                                                    التصميم
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="service-info" data-service="ios">
+                            <!-- Content for IOS services -->
+                            <div class="shadow border mx-4 my-12" style="border-color: rgb(53, 58, 88);">
+                                <div class="w-full bg-cover bg-center" style="background-image: url('https://a.top4top.io/p_3039n27v81.png');">
+                                    <div class="w-full h-72 px-6 flex justify-end items-end" style="background-color: rgba(36, 36, 37, 0.25);">
+                                        <div class="shadow-lg w-full bg-white -mb-12 py-2 px-4 rounded-lg">
+                                            <div class="h-12 flex items-center text-2xl truncate text-red-500 font-medium">
+                                                 تطبيق  صبراتة لللآيفون
+                                            </div>
+                                            <div class="overflow-clip overflow-hidden h-16 text-sm text-justify" style="color: rgb(154, 154, 154);">
+                                                تطبيق خاص  صبراتة يفيد الطلبة   في الكليات و الجامعات في متابعة الدراسية
+                                            </div>
+                                            <div class="text-red-500 h-9 flex items-center">
+                                                <i class="far fa-calendar-alt ml-2"></i>
+                                                2024-04-20
+                                            </div>
+                                            <div class="bg-green-300a h-10 flex items-center">
+                                                <a href="لا يوجد" target="_blank" class="bg-gray-600 hover:bg-red-600 rounded duration-500 ml-2 px-2 shadow-lg text-white h-8 text-sm flex items-center">
+                                                    <i class="fas fa-link ml-1"></i>
+                                                    الموقع
+                                                </a>
+                                                <a href="portfolio.html" target="_blank" class="bg-gray-600 hover:bg-red-600 rounded duration-500 ml-2 px-2 shadow-lg text-white h-8 text-sm flex items-center">
+                                                    <i class="fas fa-link ml-1"></i>
+                                                    اندرويد
+                                                </a>
+                                                <a href="portfolio.html" target="_blank" class="bg-gray-600 hover:bg-red-600 rounded duration-500 ml-2 px-2 shadow-lg text-white h-8 text-sm flex items-center">
+                                                    <i class="fas fa-link ml-1"></i>
+                                                    أيفون
+                                                </a>
+                                                <a href="لا يوجد" target="_blank" class="bg-gray-600 hover:bg-red-600 rounded duration-500 ml-2 px-2 shadow-lg text-white h-8 text-sm flex items-center">
+                                                    <i class="fas fa-link ml-1"></i>
+                                                    التصميم
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="service-info" data-service="design">
+                            <!-- Content for Design services -->
+                            <div class="shadow border mx-4 my-12" style="border-color: rgb(53, 58, 88);">
+                                <div class="w-full bg-cover bg-center" style="background-image: url('rapidoc.png');">
+                                    <div class="w-full h-72 px-6 flex justify-end items-end" style="background-color: rgba(36, 36, 37, 0.25);">
+                                        <div class="shadow-lg w-full bg-white -mb-12 py-2 px-4 rounded-lg">
+                                            <div class="h-12 flex items-center text-2xl truncate text-red-500 font-medium">
+                                                موقع RapiDoc
+                                            </div>
+                                            <div class="overflow-clip overflow-hidden h-16 text-sm text-justify" style="color: rgb(154, 154, 154);">
+                                            </div>
+                                            <div class="text-red-500 h-9 flex items-center">
+                                                <i class="far fa-calendar-alt ml-2"></i>
+                                                2024-05-25
+                                            </div>
+                                            <div class="bg-green-300a h-10 flex items-center">
+                                                <a href="لا يوجد" target="_blank" class="bg-gray-600 hover:bg-red-600 rounded duration-500 ml-2 px-2 shadow-lg text-white h-8 text-sm flex items-center">
+                                                    <i class="fas fa-link ml-1"></i>
+                                                    الموقع
+                                                </a>
+                                                <a href="https://emadosky.github.io/RAPIDOC-HEALTHCARE-WEBSITE-/" target="_blank" class="bg-gray-600 hover:bg-red-600 rounded duration-500 ml-2 px-2 shadow-lg text-white h-8 text-sm flex items-center">
+                                                    <i class="fas fa-link ml-1"></i>
+                                                    اندرويد
+                                                </a>
+                                                <a href="portfolio.html" target="_blank" class="bg-gray-600 hover:bg-red-600 rounded duration-500 ml-2 px-2 shadow-lg text-white h-8 text-sm flex items-center">
+                                                    <i class="fas fa-link ml-1"></i>
+                                                    أيفون
+                                                </a>
+                                                <a href="لا يوجد" target="_blank" class="bg-gray-600 hover:bg-red-600 rounded duration-500 ml-2 px-2 shadow-lg text-white h-8 text-sm flex items-center">
+                                                    <i class="fas fa-link ml-1"></i>
+                                                    التصميم
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        const buttons = document.querySelectorAll('.service-btn');
+                        const infoSections = document.querySelectorAll('.service-info');
+            
+                        buttons.forEach(button => {
+                            button.addEventListener('click', function() {
+                                // Remove active class from all buttons
+                                buttons.forEach(btn => btn.classList.remove('active'));
+                                // Add active class to the clicked button
+                                this.classList.add('active');
+            
+                                // Get the service type
+                                const serviceType = this.getAttribute('data-service');
+            
+                                // Hide all info sections
+                                infoSections.forEach(section => {
+                                    section.classList.remove('active');
+                                });
+            
+                                // Show the selected info section
+                                if (serviceType === 'all') {
+                                    infoSections.forEach(section => section.classList.add('active'));
+                                } else {
+                                    document.querySelector(`.service-info[data-service="${serviceType}"]`).classList.add('active');
+                                }
+                            });
+                        });
+                    });
+                </script>
+            </body>
+            </html>
+            
+</html>
+
+            <!-- Vue Component Here -->
+            <portfolio-list :portfolio="[{&quot;id&quot;:1,&quot;title&quot;:&quot;\u062a\u0637\u0628\u064a\u0642 \u0623\u0648\u0631\u0646\u062c \u0644\u064a\u0628\u064a\u0627&quot;,&quot;description&quot;:&quot;\u062a\u0637\u0628\u064a\u0642 \u062e\u0627\u0635 \u0628\u0645\u0633\u062a\u062e\u062f\u0645\u064a \u0634\u0631\u0643\u0629 \u0623\u0648\u0631\u0646\u062c \u0644\u064a\u0628\u064a\u0627, \u064a\u0633\u0627\u0639\u062f \u0627\u0644\u0645\u0634\u062a\u0631\u0643\u064a\u0646 \u0641\u064a \u0645\u062a\u0627\u0628\u0639\u0629 \u0627\u0634\u062a\u0631\u0627\u0643 \u0627\u0644\u0627\u0646\u062a\u0631\u0646\u062a \u0627\u0644\u062e\u0627\u0635 \u0628\u0647\u0645&quot;,&quot;images&quot;:&quot;https:\/\/play-lh.googleusercontent.com\/b5jQA3aqiWuXZCeWo1k0rJuzqcm20NpHbX_ZR8cruLcAl5mgO169MZsWoeU9CboE2ORD=w5120-h2880-rw&quot;,&quot;date&quot;:&quot;2022-01-01&quot;,&quot;website&quot;:&quot;&quot;,&quot;android&quot;:&quot;https:\/\/play.google.com\/store\/apps\/details?id=ly.cloudsoft.oranngeadv&quot;,&quot;ios&quot;:&quot;https:\/\/apps.apple.com\/app\/id6468402166&quot;,&quot;design&quot;:&quot;&quot;,&quot;state&quot;:1,&quot;created_at&quot;:&quot;2023-10-05T11:06:12.000000Z&quot;,&quot;updated_at&quot;:&quot;2023-10-05T11:06:12.000000Z&quot;},{&quot;id&quot;:2,&quot;title&quot;:&quot;\u0645\u0648\u0642\u0639 \u0634\u0631\u0643\u0629 \u0623\u0648\u0631\u0646\u062c \u0644\u064a\u0628\u064a\u0627&quot;,&quot;description&quot;:&quot;\u0645\u0648\u0642\u0639 \u062e\u0627\u0635 \u0628\u0634\u0631\u0643\u0629 \u0623\u0648\u0631\u0646\u062c \u0644\u064a\u0628\u064a\u0627 \u064a\u0639\u0631\u0636 \u062e\u062f\u0645\u0627\u062a \u0627\u0644\u0634\u0631\u0643\u0629 \u0648\u064a\u0635\u0644 \u0628\u064a\u0646 \u0632\u0648\u0627\u0631 \u0627\u0644\u0645\u0648\u0642\u0639 \u0648\u0627\u0644\u0634\u0631\u0643\u0629&quot;,&quot;images&quot;:&quot;https:\/\/i.ibb.co\/RhwjvgK\/Screenshot-2023-12-23-at-10-58-52-PM.png&quot;,&quot;date&quot;:&quot;2022-02-15&quot;,&quot;website&quot;:&quot;https:\/\/www.orannge.ly\/&quot;,&quot;android&quot;:&quot;#&quot;,&quot;ios&quot;:&quot;null&quot;,&quot;design&quot;:&quot;#&quot;,&quot;state&quot;:1,&quot;created_at&quot;:&quot;2023-12-23T21:00:43.000000Z&quot;,&quot;updated_at&quot;:&quot;2023-12-23T21:01:47.000000Z&quot;},{&quot;id&quot;:3,&quot;title&quot;:&quot;\u062a\u0637\u0628\u064a\u0642 \u062c\u0627\u0645\u0639\u0629 \u0635\u0628\u0631\u0627\u062a\u0629&quot;,&quot;description&quot;:&quot;\u062a\u0637\u0628\u064a\u0642 \u062e\u0627\u0635 \u0628\u062c\u0627\u0645\u0639\u0629 \u0635\u0628\u0631\u0627\u062a\u0629 \u064a\u0645\u0643\u0646 \u0627\u0644\u0637\u0644\u0628\u0629 \u0645\u0646 \u0627\u0644\u062a\u0633\u062c\u064a\u0644 \u0648\u062a\u062c\u062f\u064a\u062f \u0627\u0644\u0642\u064a\u062f \u0648\u0645\u0639\u0631\u0641\u0629 \u0627\u0644\u0646\u062a\u062c\u064a\u0629 \u0648\u0645\u062a\u0627\u0628\u0639\u0629 \u0627\u0644\u062f\u0631\u0627\u0633\u064a\u0629&quot;,&quot;images&quot;:&quot;https:\/\/a.top4top.io\/p_3039n27v81.png&quot;,&quot;date&quot;:&quot;2024-04-20&quot;,&quot;website&quot;:&quot;\u0644\u0627 \u064a\u0648\u062c\u062f&quot;,&quot;android&quot;:&quot;https:\/\/play.google.com\/store\/apps\/details?id=com.sabu.student&quot;,&quot;ios&quot;:&quot;https:\/\/testflight.apple.com\/join\/9Ye2hljE&quot;,&quot;design&quot;:&quot;\u0644\u0627 \u064a\u0648\u062c\u062f&quot;,&quot;state&quot;:1,&quot;created_at&quot;:&quot;2024-04-27T04:47:24.000000Z&quot;,&quot;updated_at&quot;:&quot;2024-04-27T04:47:24.000000Z&quot;}]"></portfolio-list>
+
+            <!-- End Vue Component Here -->
+        </div>
+    </div>
+    <!-- End Contact Form -->
+
+
+
+
+
+
+
+
+
+
+        <!-- Footer -->
+        <div class="w-full bg-primary">
+            <div class="container py-6 sm:px-4 px-12 mx-auto grid xl:grid-cols-4 lg:grid-cols-2 lg:gap-8">
+                <!-- Item -->
+                <div class="mt-4 lg:mt-0">
+                    <div class="text-3xl text-white h-16 flex items-center">
+                        Emadosky Enterprises 
+                        <span class="secondary text-sm -mb-3 mr-1"><i class="far fa-dot-circle"></i></span>
+                    </div>
+                    <div class="text-gray-300 text-sm text-justify">
+                        شركة عمانية متخصصة في تطوير البرمجيات مقرنا في عمان ,
+                        مسقط  هدفنا تطوير برمجيات قوية تساعد العملاء في تحسين أعمالهم
+                    </div>
+                </div>
+                <!-- End Item -->
+                <!-- Item -->
+                <div class="mt-4 lg:mt-0">
+                    <div class="text-3xl text-white h-16 flex items-center">
+                        الخدمات
+                    </div>
+                    <a href="services.html" class=" w-full text-gray-100 flex items-center h-8 text-sm hover-secondary transform transition duration-500 ease-in-out">
+                        <i class="fas fa-caret-left ml-3"></i>
+                        برمجة التطبيقات</a>
+                    <a href="services.html" class="w-full text-gray-100 flex items-center h-8 text-sm hover-secondary transform transition duration-500 ease-in-out">
+                        <i class="fas fa-caret-left ml-3"></i>
+                        برمجة المواقع</a>
+                    <a href="services.html" class="w-full text-gray-100 flex items-center h-8 text-sm hover-secondary transform transition duration-500 ease-in-out">
+                        <i class="fas fa-caret-left ml-3"></i>
+                        برمجة المنظومات</a>
+                    <a href="products.html" class="w-full text-gray-100 flex items-center h-8 text-sm hover-secondary transform transition duration-500 ease-in-out">
+                        <i class="fas fa-caret-left ml-3"></i>
+                        المنتجات الرقمية</a>
+                </div>
+                <!-- End Item -->
+                <!-- Item -->
+                <div class="mt-4 lg:mt-0">
+                    <div class="text-3xl text-white h-16 flex items-center">
+                        روابط
+                    </div>
+                    <a href="about.html" class="w-full text-gray-100 flex items-center h-8 text-sm hover-secondary transform transition duration-500 ease-in-out">
+                        <i class="fas fa-caret-left ml-3"></i>
+                        من نحن</a>
+                    <a href="team.html" class="w-full text-gray-100 flex items-center h-8 text-sm hover-secondary transform transition duration-500 ease-in-out">
+                        <i class="fas fa-caret-left ml-3"></i>
+                        فريق العمل</a>
+                    <a href="/" class="w-full text-gray-100 flex items-center h-8 text-sm hover-secondary transform transition duration-500 ease-in-out">
+                        <i class="fas fa-caret-left ml-3"></i>
+                        المدونة</a>
+                    <a href="portfolio.html" class="w-full text-gray-100 flex items-center h-8 text-sm hover-secondary transform transition duration-500 ease-in-out">
+                        <i class="fas fa-caret-left ml-3"></i>
+                        معرض الأعمال</a>
+                </div>
+                <!-- End Item -->
+                <!-- Item -->
+                <div class="mt-4 lg:mt-0">
+                    <div class="text-3xl text-white h-16 flex items-center">
+                        إتصل بنا
+                    </div>
+                    <div class="text-3xl text-white">
+                        <a target="_blank" href="index.html" class="hover:text-red-400 transform transition duration-300 ease-in-out">
+                            <i class="fab fa-facebook-f ml-5"></i>
+                        </a>
+                        <a href="index.html" class="hover:text-red-400 transform transition duration-300 ease-in-out">
+                            <i class="fab fa-twitter ml-5"></i>
+                        </a>
+                        <a href="index.html" class="hover:text-red-400 transform transition duration-300 ease-in-out">
+                            <i class="fab fa-linkedin-in ml-5"></i>
+                        </a>
+                        <a href="index.html" class="hover:text-red-400 transform transition duration-300 ease-in-out">
+                            <i class="fab fa-youtube ml-5"></i>
+                        </a>
+                    </div>
+
+
+
+                </div>
+                <!-- End Item -->
+            </div>
+
+            <div class="h-16 mx-auto w-full" style="background:hwb(268 8% 62%);">
+                <div class="container mx-auto"></div>
+            </div>
+        </div>
+        <!-- End Footer -->
+
+
+    </div>
+    <!-- Js Part -->
+
+
+    <script src="/js/home.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        AOS.init();
+
+        function myFunction() {
+            var x = document.getElementById("myDIV");
+            var y = document.getElementById("myDIV2");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+                y.style.display = "block";
+            } else {
+                x.style.display = "none";
+                y.style.display = "none";
+            }
+        }
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+            },
+        });
+    </script>
+
+    <script src="http://demo.tinywall.net/numscroller/lib/jquery-1.10.2.min.js"></script>
+    <script src="http://demo.tinywall.net/numscroller/numscroller-1.0.js"></script>
+
+
+</body>
+
+</html>
+<!-- partial -->
+  
+</body>
+</html>
